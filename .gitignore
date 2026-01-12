@@ -1,14 +1,22 @@
 # Virtual environment
 venv/
-env/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Uploaded images
-uploads/
+# Model files (optional – keep if model is large)
+# model/*.h5
+# model/*.keras
+
+# Uploads
+static/uploads/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
